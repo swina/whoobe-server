@@ -12,7 +12,7 @@
   "authentication": {
     "entity": "user",
     "service": "users",
-    "secret": "7BwjcUTOMHzWsfYGN/WaCMB5MhQ=",
+    "secret": "",
     "authStrategies": [
       "jwt",
       "local"
@@ -33,8 +33,8 @@
     "oauth": {
       "redirect": "/",
       "google": {
-        "key": "<google oauth key>",
-        "secret": "<google oauth secret>",
+        "key": "",
+        "secret": "",
         "scope": [
           "email",
           "profile",
@@ -42,8 +42,8 @@
         ]
       },
       "github": {
-        "key": "<github oauth key>",
-        "secret": "<github oauth secret>"
+        "key": "",
+        "secret": ""
       }
     }
   }
