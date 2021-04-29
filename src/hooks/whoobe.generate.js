@@ -60,24 +60,7 @@ module.exports = (options = {}) => {
       })
     }
     return context
-    // var apikey = context.params.query.apikey
-
-    // var request = unirest("GET", "https://whoobe-freelance.p.rapidapi.com/build");
-    // //"66c9ba4cbdmsha2fbddc93240028p1c3b4cjsn942726849945"
-    // request.headers({
-    //   "x-rapidapi-host": "whoobe-freelance.p.rapidapi.com",
-    //   "x-rapidapi-key": apikey,
-    //   "useQueryString": true
-    // });
-
-    // request.end(function (res) {
-    //   if (res.error) throw new Error(res.error);
-    //   console.log ( res )
-    //   console.log(res.body);
-    //   context.data = res.body
-    //   context.result = res.body
-    //   return context
-    // });
+    
     
   };
 };
